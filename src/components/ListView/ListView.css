@@ -1,0 +1,23 @@
+.ListView {
+    overflow: auto;
+    height: 95%;
+    width: 300px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.BizCard {
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.BizCard:hover{
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);   
+}
+
+
+.BizCard.highlighted{
+    color: blue;
+}
